@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Back Office App</title>
+
+    <!-- Favicon-->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet"
+        type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+    <!-- Bootstrap Core Css -->
+    <!-- <link rel="stylesheet" href="./plugins/bootstrap/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.css"
+        integrity="sha256-zlmAH+Y2JhZ5QfYMC6ZcoVeYkeo0VEPoUnKeBd83Ldc=" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Waves Effect Css -->
+    <link href="./plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="./plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Custom Css -->
+    <!-- <link href="./css/style.css" rel="stylesheet"> -->
+
+    <link rel="shortcut icon" href="./assets/images/fav.jpg">
+
+    <link rel="stylesheet" href="./assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="container "> -->
+        <form id="sign_in" method="POST" autocomplete="off">
+            <div class="form-row">
+                <!-- <div class="col-lg-12 col-md-12 login-box"> -->
+                <div class="row col-lg-12 col-sm-12">
+                    <div class="col-lg-6 box-de d-none d-lg-block d-print-block">
+                        <div class="inn-cover">
+                            <div class="ditk-inf">
+                                <div class="small-logo">
+                                </div>
+                                <!-- <h2 class="w-100">Din't Have an Account </h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra ut dui in
+                                        dictum. Simply Create your account by clicking the Signup Button</p>
+                                    <a href="#">
+                                        <button type="button" class="btn btn-outline-light">SIGN UP</button>
+                                    </a> -->
+                            </div>
+                            <div class="foter-credit">
+                                <!-- <a href="https://smarteyeapps.com/">Designed by : Smarteyeapps.com</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 log-det">
+                        <div class="small-logo">
+                            <span style="font-size:35px">Welcome</span>
+                        </div>
+                        <p class="dfmn" style="font-size: 22px; color: #0517ee;">Back Office App</p>
+                        <div class="text-box-cont">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                                </div>
+                                <input type="text" class="form-control" name="username" id="usrnm"
+                                    placeholder="10 Digit Mobile Number" required autofocus aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group mb-3" id="inputOTP">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-lock"></i></span>
+                                </div>
+                                <input type="password" class="form-control" name="password" id="otp"
+                                    placeholder="Enter the OTP" required aria-label="Username"
+                                    aria-describedby="basic-addon1">
+                            </div>
+                            <div class="input-group center">
+                                <button class="btn btn-cust btn-round" id="getOTP" type="button">Get
+                                    OTP</button>
+                            </div>
+                            <div class="input-group center" id="signBtn">
+                                <button class="btn btn-cust btn-round" id="sign" type="submit">SIGN
+                                    IN</button>
+                            </div>
+                            <div class="row">
+                                <p class="forget-p" style="font-size:18px"><span>Please enter any data in the
+                                        Number &amp; the OTP fileds</span></p>
+                            </div>
+                            <div class="row">
+                                <p class="small-info" style="font-size:18px;color: #0517ee;">Connect With Social Media
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <ul>
+                                <li><i class="fab fa-facebook-f" style="font-size:18px; color: #0517ee;"></i></li>
+                                <li><i class="fab fa-twitter" style="font-size:18px; color: #0517ee;"></i></li>
+                                <li><i class="fab fa-linkedin-in" style="font-size:18px; color: #0517ee;"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- </div> -->
+            </div>
+        </form>
+        <!-- </div> -->
+    </div>
+</body>
+
+<!-- <script src="assets/js/jquery-3.2.1.min.js"></script> -->
+<!-- Jquery Core Js -->
+<script src="./plugins/jquery/jquery.min.js"></script>
+
+<!-- Bootstrap Core Js -->
+<!-- <script src="./plugins/bootstrap/js/bootstrap.js"></script> -->
+
+<!-- Waves Effect Plugin Js -->
+<!-- <script src="./plugins/node-waves/waves.js"></script> -->
+
+<!-- Validation Plugin Js -->
+<script src="./plugins/jquery-validation/jquery.validate.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-toast-plugin/1.3.2/jquery.toast.js"
+    integrity="sha256-SVfZ7rfF8boo4UH6df28wTQeoPEpoQ+xdInu0K2ulYk=" crossorigin="anonymous"></script>
+
+<!-- Custom Js -->
+<!-- <script src="./js/admin.js"></script> -->
+
+
+
+<script src="assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<script src="./assets/js/script.js"></script>
+<script src="./js/pages/examples/sign-in.js"></script>
+
+</html>
